@@ -23,10 +23,11 @@ Aşağıdaki ayarları yapın:
 
 - **Project name**: `suno-prompt-generator` (veya istediğiniz isim)
 - **Production branch**: `main`
-- **Framework preset**: `Next.js (Static HTML Export)`
+- **Framework preset**: `None` veya `Next.js (Static HTML Export)`
 - **Build command**: `npm run build`
 - **Build output directory**: `out`
 - **Root directory**: `/` (boş bırakın)
+- **Node version**: `18` veya `20` (Environment Variables'da NODE_VERSION=18 ekleyin)
 
 ### 5. Environment Variables (Opsiyonel)
 Gerekirse environment variable'lar ekleyebilirsiniz (şu an için gerekli değil).
