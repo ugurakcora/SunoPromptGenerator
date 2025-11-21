@@ -81,17 +81,6 @@ npm run build
 npm start
 ```
 
-### Cloudflare Pages'e Deploy
-1. [Cloudflare Dashboard](https://dash.cloudflare.com/) → Pages → Create a project
-2. GitHub repository'nizi bağlayın
-3. Build settings:
-   - **Build command**: `npm run build`
-   - **Build output directory**: `out`
-   - **Framework preset**: `Next.js (Static HTML Export)`
-4. Deploy butonuna tıklayın
-
-Detaylı talimatlar için `cloudflare-pages.md` dosyasına bakın.
-
 ### Vercel'e Deploy
 ```bash
 vercel
